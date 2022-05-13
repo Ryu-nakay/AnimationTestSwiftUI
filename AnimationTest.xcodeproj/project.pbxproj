@@ -14,6 +14,7 @@
 		EF1C7B94282DE20D00F37D62 /* AnimationTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C7B93282DE20D00F37D62 /* AnimationTestTests.swift */; };
 		EF1C7B9E282DE20D00F37D62 /* AnimationTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C7B9D282DE20D00F37D62 /* AnimationTestUITests.swift */; };
 		EF1C7BA0282DE20D00F37D62 /* AnimationTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C7B9F282DE20D00F37D62 /* AnimationTestUITestsLaunchTests.swift */; };
+		EF1C7BAD282DE64000F37D62 /* CustomCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C7BAC282DE64000F37D62 /* CustomCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EF1C7B99282DE20D00F37D62 /* AnimationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1C7B9D282DE20D00F37D62 /* AnimationTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTestUITests.swift; sourceTree = "<group>"; };
 		EF1C7B9F282DE20D00F37D62 /* AnimationTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF1C7BAC282DE64000F37D62 /* CustomCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				EF1C7B82282DE20B00F37D62 /* AnimationTestApp.swift */,
 				EF1C7B84282DE20B00F37D62 /* ContentView.swift */,
+				EF1C7BAC282DE64000F37D62 /* CustomCircle.swift */,
 				EF1C7B86282DE20D00F37D62 /* Assets.xcassets */,
 				EF1C7B88282DE20D00F37D62 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				EF1C7B85282DE20B00F37D62 /* ContentView.swift in Sources */,
 				EF1C7B83282DE20B00F37D62 /* AnimationTestApp.swift in Sources */,
+				EF1C7BAD282DE64000F37D62 /* CustomCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,9 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var animationFlag: Bool = false
+    @State var circleAngle: Double = 0
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Hello, world!")
+                .padding()
+            CustomCircle(circleAngle: self.$circleAngle)
+
+            Button(action: {
+                withAnimation(.linear(duration: 0.3)) {
+                    self.animationFlag.toggle()
+                    if(animationFlag == true) {
+                        circleAngle += 360
+                    } else {
+                        circleAngle -= 360
+                    }
+                }
+            }, label: {
+                Text("animation")
+            })
+        }
     }
 }
 
